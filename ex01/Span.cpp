@@ -33,12 +33,12 @@ Span &Span::operator=(const Span &src)
 
 const char *Span::NoSpaceException::what() const throw()
 {
-	return "Dynamic array already full";
+	return "Error : Dynamic array already full";
 }
 
 const char *Span::NotEnoughNumbersException::what() const throw()
 {
-	return "No enough numbers in the dynamic array for the calculation";
+	return "Error : No enough numbers in the dynamic array for the calculation";
 }
 
 void Span::addNumber(int nbr)
