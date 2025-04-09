@@ -1,4 +1,4 @@
-NAME=	mutated
+NAME=	mutantStack
 CC=		c++
 FLAGS=	-Wall -Wextra -Werror -g3 -std=c++98
 

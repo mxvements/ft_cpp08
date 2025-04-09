@@ -17,7 +17,6 @@
 # include <algorithm>
 # include <stack>
 
-
 /**
  * template<
     	class T,
